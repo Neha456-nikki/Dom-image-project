@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image Project</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        img {
+            width: 400px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="wrapper"></div>
+    <script>
+        const img = document.createElement('img');
+        img.src="Screenshot_20-12-2024_16417_.jpeg";
+        const image = document.getElementsByClassName('wrapper');
+        image[0].appendChild(img);
+
+    </script>
+</body>
+</html>
